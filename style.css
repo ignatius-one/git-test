@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    /* margin: 0; */
+}
+header {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    background: url('imgback.jpg');
+    background-attachment: fixed;
+    color: white;
+    letter-spacing: 4px;
+}
+
+header h1{
+    font-size: 2rem;
+}
+header p {
+    font-size: 1rem;
+    letter-spacing: 6px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
