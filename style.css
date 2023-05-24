@@ -2,7 +2,28 @@
     padding: 0;
     /* margin: 0; */
 }
+
+.Menu{
+    width: 100%;
+    height: 60px;
+    background-color: aliceblue;
+    position:fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.Menu a{
+    font-size: 2rem;
+    margin-left: 12px;
+    text-decoration: none;
+    color: #212529;
+    padding: 6px;
+    border: 1px solid #212529;
+}
 header {
+    margin-top: 70px;
     width: 100%;
     height: 200px;
     border: 2px solid black;
@@ -10,7 +31,7 @@ header {
     text-align: center;
     background: url('imgback.jpg');
     background-attachment: fixed;
-    color: white;
+    color: #f5f5f5fd;
     letter-spacing: 4px;
 }
 main {
@@ -31,7 +52,7 @@ main {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #e9ecef;
+    background-color: rgb(221, 221, 239);
 }
 .main-text {
     font-family: 'Poppins', sans-serif;
